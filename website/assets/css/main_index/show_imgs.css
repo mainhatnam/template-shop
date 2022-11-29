@@ -1,0 +1,35 @@
+.show-imgs  {
+    background-color: #f9f3eb;
+    width: 100%;
+}
+.imgs{
+    width: 48%;
+}
+.display{
+    display: flex;
+    justify-content: space-around;
+}
+.imgs-1{
+    display: flex;
+    flex-direction: column;
+}
+.child-imgs-1 { 
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.imgs-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.child-imgs-2{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.display{
+    padding:10% 0
+}
