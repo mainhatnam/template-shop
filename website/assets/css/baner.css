@@ -1,0 +1,33 @@
+.banner{
+    background-image:url("../../assets/img/baner/image_2022_11_28.png");
+    background-repeat: no-repeat;
+    height: 727px;
+    background-size:cover ;
+    box-sizing: border-box;
+    padding: 222px 0;
+}
+.infobaner{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    
+}
+.infobaner > .content-banner{
+  margin: 60px 0;
+   
+}   
+.infobaner > div >b{
+    font-size: 360%;
+}
+.infobaner > div > a > button{
+    background-color: #ef8b59;
+    color: white;
+    border: none;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 92px;
+    width: 200px;
+    height: 46px;
+    box-sizing: border-box;
+}
+
