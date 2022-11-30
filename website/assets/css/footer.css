@@ -1,0 +1,45 @@
+.paren-info{
+    display: flex;
+
+}
+.info-1{
+    width: 45%;
+}
+.info-1 > small{
+    font-size: 50%;
+}
+.info-2{
+    width: 30%;
+}
+.info-3{
+    width: 20%;
+}
+.info-4{
+    width: 15%;
+}
+.info-web{
+    background-color: #f9f3eb;
+    padding: 5%;
+}
+.paren-info > div > p {
+   margin: 4% 0;
+   line-height: 30px;
+   color: #636766;
+}
+.info-1 > span {
+    border: 1px solid black;
+    padding: 2px;
+}
+.footer{
+    background-color: #222222;
+}
+.paren-footer{
+    display: flex;
+    padding: 2%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.content-footer > p{
+    color: white;
+}

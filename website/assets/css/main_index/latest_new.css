@@ -1,0 +1,30 @@
+.img-product-3{
+    /* object-fit: cover; */
+    
+}
+.product-3{
+    position: relative;
+}
+.img-face{
+position: absolute;
+top: 45%;
+}
+.p-latestnew > small{
+color: #bebebe;
+}
+.description-3 {
+    width: 330px !important   ;
+}
+.description-3 > h3 {
+    color:black;
+}
+.hr-product-3{
+    border: 0.1px solid #d8d8d8;
+    margin-bottom: 2%;
+}
+.description-3 > b{
+    color: red;
+}
+.smail-product-3{
+    color: #5b5b5b;
+}

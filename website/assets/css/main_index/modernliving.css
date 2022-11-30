@@ -1,0 +1,39 @@
+.modernliving {
+    width: 100%;
+    position: relative;
+}
+.img-modernliving {
+    display: flex;
+ 
+}
+.img-modernliving > img {
+    width: 50%;
+    object-fit: fill;
+}
+.background-modernliving {
+    width: 50%;
+    background-color: #ef8b59;
+}
+.pater {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    
+}
+.content-modernliving{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    color: white;
+    height: 100%;
+}
+.content-modernliving > div{
+    padding: 58px 0 51px 51px;
+    font-size: large;
+}
