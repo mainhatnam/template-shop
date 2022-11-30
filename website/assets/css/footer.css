@@ -29,6 +29,11 @@
 .info-1 > span {
     border: 1px solid black;
     padding: 2px;
+    margin: 2px;
+   
+}
+.info-1 > span > a{
+    color: black;
 }
 .footer{
     background-color: #222222;
