@@ -19,13 +19,14 @@
 .top-bar__category > a{
     color: white;
     text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
 }
 .top-bar__category > a > .content{
     margin: 0 47px;
     font-size: medium;
 }  
-
-
 .col-2{
     text-align: center;
 }
@@ -63,3 +64,4 @@
 .top-bar__list-user > li > a {
     color: black;
 }
+

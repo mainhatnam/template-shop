@@ -29,12 +29,15 @@
 .card-1 {
     background-color: #ef8b59;
     z-index: 1;
+    position: relative;
 }
 .card-2 {
     background-color: #ffffff;
+    position: relative;
 }
 .card-3 {
     background-color: #ffffff;
+    position: relative;
 
 }
 .card-4 {
@@ -49,17 +52,18 @@
 }
 .avt-card-1 {
     position: absolute;
-    bottom: 13px;
+    bottom: -4;
+    left: 2;
 }
 .avt-card-2 {
     position: absolute;
-    bottom: -64px;
-    left: 195px;
+    bottom: -4;
+    left: 2;
 }
 .avt-card-3 {
     position: absolute;
-    bottom: -64px;
-    left: 850px;    
+    bottom: -4;
+    left: 2;    
 }
 .span-news {
     margin-top: 6%;
@@ -88,7 +92,7 @@
     background-color: #f5c6ae;
 }
 .input{
-    width: 100%;
+    width: 40%;
     height: 50px;
     border-radius: 16px;
     background-color: #f1f1f1;
@@ -96,9 +100,10 @@
 }
 .subscribe{
     position: relative;
+    text-align: center;
 }
 .button {
-    width: 20%;
+    right: 10%;
     height: 50px;
     border-top-right-radius: 16px;
     border-bottom-right-radius: 16px;
@@ -107,5 +112,6 @@
     color: #f5f5f5;
     position:absolute;
     top:0;
-    right: 0;
+    right: 24%;
+    padding: 1%;
 }
