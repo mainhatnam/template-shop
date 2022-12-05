@@ -48,3 +48,10 @@
 .content-footer > p{
     color: white;
 }
+
+.subscribe > input {
+    padding: 0 2%;
+}
+.menu-mobile{
+    font-size: large;
+}
