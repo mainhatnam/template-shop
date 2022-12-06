@@ -24,7 +24,8 @@
     <link rel="stylesheet" href="assets/css/responsive.css">
 </head>
 
-<body>
+<body id="body-paren-main">
+    
     <div id="body-main" class="body-main">
         <!-- header -->
         <header class="header">
@@ -42,7 +43,6 @@
                     <div class="menu-mobile">
                         <span id="open-menu" class="open-menu"><i onclick="openMenu()"
                                 class="fa-solid fa-bars"></i></span>
-                        <span id="close" class="close" onclick="closeMenu()"><i class="fa-solid fa-x"></i></span>
                     </div>
                     <div class="col-2">
                         <ul class="top-bar__list-menu">
@@ -64,8 +64,10 @@
             </div>
         </header>
         <div id="menu-mobile-2" class="menu-mobile-2">
-            <div class="container">
+            <div class="container">                
                 <div id="menu-mobile-op" class="menu-mobile-op">
+                    <h1>Category</h1>
+                    <span id="close" class="close-menu" onclick="closeMenu()"><i class="fa-solid fa-x"></i></span>
                     <ul class="top-bar__list-menu-mobile">
                         <li><a class="item-menu" href=""><b>HOME</b></a></li>
                         <li><a class="item-menu" href=""><b>FEATURED</b></a></li>
@@ -563,15 +565,12 @@
 
     <script>
         function openMenu() {
-            document.getElementById('menu-mobile-2').style.display = 'block';
-            document.getElementById('open-menu').style.display = 'none';
-            document.getElementById('close').classList.add("open-close");
-            document.getElementById('close').style.display = 'block';
+            document.getElementById('menu-mobile-2').classList.add("show-menu-mobile");
+            document.getElementById('body-paren-main').classList.add("body-block");
         }
         function closeMenu() {
-            document.getElementById('menu-mobile-2').style.display = 'none';
-            document.getElementById('close').style.display = 'none';
-            document.getElementById('open-menu').style.display = 'block';
+            document.getElementById('menu-mobile-2').classList.remove("show-menu-mobile");
+            document.getElementById('body-paren-main').classList.remove("body-block");
         }
     </script>
 </body>

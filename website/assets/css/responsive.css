@@ -1,10 +1,4 @@
 /* 1440px (kích thước trong file psd cũng đc nhé), 1366px, 1280px, 1024px, 991px, 768px, 640px, 480px, 385px */
-@media (min-width:768px) {
-   .menu-mobile-2 {
-      display: none !important;
-   }
-}
-
 /* width >= 1440px */
 @media (min-width:1440px) {
    .container {
@@ -225,11 +219,6 @@
       width: 100%;
       max-width: 540px;
    }
-
-   .menu-mobile-2 {
-      display: none;
-   }
-
    .info-product-2 {
       justify-content: center;
    }
@@ -324,9 +313,6 @@
       display: flex;
    }
 
-   .menu-mobile-2 {
-      display: none;
-   }
 }
 
 @media (min-width:480px) and (max-width:639px) {
@@ -337,11 +323,6 @@
    .menu-mobile-op {
       font-size: small;
    }
-
-   .menu-mobile-2 {
-      display: none;
-   }
-
    .col-1 {
       display: none;
    }
@@ -545,11 +526,6 @@
    .container {
       width: 90%;
    }
-
-   .menu-mobile-2 {
-      display: none;
-   }
-
    .col-1 {
       display: none;
    }
@@ -775,11 +751,6 @@
    .container {
       width: 90%;
    }
-
-   .menu-mobile-2 {
-      display: none;
-   }
-
    .col-1 {
       display: none;
    }
@@ -805,13 +776,13 @@
       background-color: #ef8b59;
       color: white;
       text-align: center;
-      font-size: 15px;
+      font-size: 58%;
       border-radius: 16px;
       text-decoration: none;
       box-sizing: border-box;
-      padding: 5px 20px;
+      padding: 1% 8px;
       margin: auto;
-   }
+  }
 
    .info-product {
       box-sizing: border-box;
@@ -846,11 +817,11 @@
    .content-banner {
       padding: 5% 0;
       width: 85%;
-      font-size: smaller;
+      font-size: x-small;
    }
 
    .info-baner>div>b {
-      font-size: x-large;
+      font-size: small;
    }
 
    .info-baner {
