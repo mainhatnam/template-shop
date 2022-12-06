@@ -40,18 +40,9 @@
                         </div>
                     </div>
                     <div class="menu-mobile">
-                        <i onclick="openMenu()" class="fa-solid fa-bars"></i>
-                        <span id="close" class="close" onclick="closeMenu()"><i   class="fa-solid fa-x"></i></span>
-                        <div id="menu-mobile-op" class="menu-mobile-op">
-                            <ul class="top-bar__list-menu-mobile">
-                                <li> <a href=""><b>HOME</b></a></li>
-                                <li><a href=""><b>FEATURED</b></a></li>
-                                <li><a href=""><b>SHOP</b></a></li>
-                                <li><a href=""><b>BLOG</b></a></li>
-                                <li><a href=""><b>ABOUT</b></a></li>
-                                <li><a href=""><b>CONTACT</b></a></li>
-                            </ul>
-                        </div>
+                        <span id="open-menu" class="open-menu"><i onclick="openMenu()"
+                                class="fa-solid fa-bars"></i></span>
+                        <span id="close" class="close" onclick="closeMenu()"><i class="fa-solid fa-x"></i></span>
                     </div>
                     <div class="col-2">
                         <ul class="top-bar__list-menu">
@@ -72,6 +63,20 @@
                 </div>
             </div>
         </header>
+        <div id="menu-mobile-2" class="menu-mobile-2">
+            <div class="container">
+                <div id="menu-mobile-op" class="menu-mobile-op">
+                    <ul class="top-bar__list-menu-mobile">
+                        <li><a class="item-menu" href=""><b>HOME</b></a></li>
+                        <li><a class="item-menu" href=""><b>FEATURED</b></a></li>
+                        <li><a class="item-menu" href=""><b>SHOP</b></a></li>
+                        <li><a class="item-menu" href=""><b>BLOG</b></a></li>
+                        <li><a class="item-menu" href=""><b>ABOUT</b></a></li>
+                        <li><a class="item-menu" href=""><b>CONTACT</b></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
         <!-- header -->
         <!---  --------------------------------------  -->
         <!-- banner -->
@@ -558,12 +563,15 @@
 
     <script>
         function openMenu() {
-            document.getElementById('menu-mobile-op').style.display = 'block';
+            document.getElementById('menu-mobile-2').style.display = 'block';
+            document.getElementById('open-menu').style.display = 'none';
+            document.getElementById('close').classList.add("open-close");
             document.getElementById('close').style.display = 'block';
         }
         function closeMenu() {
-            document.getElementById('menu-mobile-op').style.display = 'none';
+            document.getElementById('menu-mobile-2').style.display = 'none';
             document.getElementById('close').style.display = 'none';
+            document.getElementById('open-menu').style.display = 'block';
         }
     </script>
 </body>

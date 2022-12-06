@@ -1,4 +1,10 @@
 /* 1440px (kích thước trong file psd cũng đc nhé), 1366px, 1280px, 1024px, 991px, 768px, 640px, 480px, 385px */
+@media (min-width:768px) {
+   .menu-mobile-2 {
+      display: none !important;
+   }
+}
+
 /* width >= 1440px */
 @media (min-width:1440px) {
    .container {
@@ -7,7 +13,7 @@
    }
 
    .info-baner {
-      width: 35%;
+      width: 50%;
    }
 
    .content-banner {
@@ -32,6 +38,10 @@
       padding: 10% 0% 10% 10%;
       width: 100%;
       font-size: x-large;
+   }
+
+   .menu-mobile-op {
+      font-size: small;
    }
 }
 
@@ -209,12 +219,14 @@
    }
 
 }
-
-/*  */
 @media (min-width:640px) and (max-width:767px) {
    .container {
       width: 100%;
       max-width: 540px;
+   }
+
+   .menu-mobile-2 {
+      display: none;
    }
 
    .info-product-2 {
@@ -302,28 +314,47 @@
       width: 100%;
       margin: auto;
    }
-}
 
-@media (min-width:480px) and (max-width:639px) {
-   .col-1{
+   .col-1 {
       display: none;
    }
-   .menu-mobile{
+
+   .menu-mobile {
       display: flex;
    }
+
+   .menu-mobile-2 {
+      display: none;
+   }
+}
+@media (min-width:480px) and (max-width:639px) {
+   .top-bar__list-menu-mobile>li {
+      padding: 3% 0;
+   }
+   .menu-mobile-op {
+      font-size: small;
+   }
+
+   .menu-mobile-2 {
+      display: none;
+   }
+
+   .col-1 {
+      display: none;
+   }
+
+   .menu-mobile {
+      display: flex;
+   }
+
    .container {
-      width: 100%;
+      width: 90%;
    }
 
    .info-web {
       padding: 0;
    }
-
-   .info-baner>div>b {
-      font-size: xx-large;
-   }
-
-   .content-banner {
+   .content-banner { 
       padding: 5% 0;
       width: 80%;
    }
@@ -372,7 +403,7 @@
    }
 
    .info-baner>div>b {
-      font-size: xx-large;
+      font-size: large;
    }
 
    .info-baner {
@@ -493,15 +524,31 @@
 }
 
 @media (min-width:385px) and (max-width:479px) {
-   .container {
-      width: 100%;
+   .menu-mobile-op {
+      font-size: small;
    }
-   .col-1{
+
+   .top-bar__list-menu-mobile>li {
+      list-style-type: none;
+      padding: 3% 0;
+   }
+
+   .container {
+      width: 90%;
+   }
+
+   .menu-mobile-2 {
       display: none;
    }
-   .menu-mobile{
+
+   .col-1 {
+      display: none;
+   }
+
+   .menu-mobile {
       display: flex;
    }
+
    .info-web {
       padding: 0;
    }
@@ -536,8 +583,9 @@
       flex-wrap: wrap;
       align-content: center;
    }
-   .product{
-      margin: 2% 0   ;
+
+   .product {
+      margin: 2% 0;
    }
 
    .info-product-2 {
