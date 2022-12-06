@@ -97,14 +97,9 @@
     color: #009688;
     opacity: 1;
 }
-.open-menu {
-}
 .open-close {
     animation: menu 2s ease-in-out;
 }
-/* .menu-mobile-2 {
-    display: none;
-} */
 .close-block {
     display: none !important;
 }
