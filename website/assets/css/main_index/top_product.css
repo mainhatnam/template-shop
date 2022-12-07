@@ -35,7 +35,8 @@
 }
 .product{
     width: auto;
-    background-color: #ffffff;
+    background-color: #f1f1f1;
+    margin: 3% 0;
 }
 .product > a{
     text-decoration: none;
