@@ -219,6 +219,7 @@
       width: 100%;
       max-width: 540px;
    }
+
    .info-product-2 {
       justify-content: center;
    }
@@ -323,6 +324,7 @@
    .menu-mobile-op {
       font-size: small;
    }
+
    .col-1 {
       display: none;
    }
@@ -505,6 +507,7 @@
    .paren-info {
       font-size: x-small;
    }
+
    .logo-footer {
       display: flex;
       flex-wrap: wrap;
@@ -526,6 +529,7 @@
    .container {
       width: 90%;
    }
+
    .col-1 {
       display: none;
    }
@@ -730,6 +734,7 @@
       flex-wrap: wrap;
       justify-content: space-around;
    }
+
    .logo-footer {
       display: flex;
       flex-wrap: wrap;
@@ -751,6 +756,7 @@
    .container {
       width: 90%;
    }
+
    .col-1 {
       display: none;
    }
@@ -782,7 +788,7 @@
       box-sizing: border-box;
       padding: 1% 8px;
       margin: auto;
-  }
+   }
 
    .info-product {
       box-sizing: border-box;
@@ -955,6 +961,7 @@
       flex-wrap: wrap;
       justify-content: space-around;
    }
+
    .logo-footer {
       display: flex;
       flex-wrap: wrap;
